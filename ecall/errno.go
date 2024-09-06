@@ -15,7 +15,3 @@ const (
 	SBI_ERR_ALREADY_STOPPED   Errno = -8 // Already stopped
 	SBI_ERR_NO_SHMEM          Errno = -9 // Shared memory not available
 )
-
-func (en Errno) Error() string {
-	return en.String()
-}
